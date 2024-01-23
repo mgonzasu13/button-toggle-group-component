@@ -1,0 +1,9 @@
+<div class="container">
+  <button
+    *ngFor="let option of options"
+    [class.active]="option === selectedOption"
+    (click)="selectOption(option)"
+  >
+    {{ option }}
+  </button>
+</div>

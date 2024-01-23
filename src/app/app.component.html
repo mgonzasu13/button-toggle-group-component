@@ -1,0 +1,9 @@
+<div>
+  <h1>Toggle Button Group Example</h1>
+  <app-toggle-button-group
+    [options]="['Total', 'Del mes', 'Mínimo','Otro']"
+    (optionSelected)="handleOptionSelected($event)"
+  ></app-toggle-button-group>
+
+  <p>Selected Option: {{ selectedOption }}</p>
+</div>

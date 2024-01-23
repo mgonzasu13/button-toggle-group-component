@@ -1,0 +1,31 @@
+.container {
+  padding: 10px;
+}
+
+button {
+  border: 0.5px solid rgba(255, 255, 255, 0.18);
+  background: #1e2941;
+  padding: 17px;
+  cursor: pointer;
+  color: #fff;
+  max-width: 96px;
+  width: 96px;
+  
+}
+
+button:first-child {
+  /* Estilos para el primer botón */
+  border-radius: 5px 0 0 5px;
+}
+button:last-child {
+  /* Estilos para el último botón */
+  border-radius: 0 5px 5px 0;
+}
+
+button.active {
+  border-radius: 8px;
+  background: #640ab0;
+  color: #fff;
+  scale: 1.1;
+  border: 0;
+}
